@@ -6,9 +6,9 @@
 	Execute this script from project root with:
         chmod +x ./CS1XA3/Project01/project_analyze
         You will be prompted to enter either 1 , 2 or 3.
-        entering 1 and hitting enter will execute feature 1
-        entering 2 and hitting enter will execute feature 1
-        entering 3 and hitting enter will execute feature 1
+        entering 1 and hitting enter will execute feature 1 (file size list)
+        entering 2 and hitting enter will execute feature 2 (file extension)
+        entering 3 and hitting enter will execute feature 3 (FIXME log)
         the program will terminate after executing a feature,
         run it again to use other features
 
