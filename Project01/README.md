@@ -55,7 +55,7 @@ some code from [[https://stackoverflow.com/questions/60217860/how-to-find-
 every-file-in-my-repo-that-has-a-specific-word-in-the-last-line]
 
 
-## Custom Feature 01 -
+## Custom Feature 01
 
 Delete Replicate Files
 
