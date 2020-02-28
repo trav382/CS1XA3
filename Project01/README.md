@@ -20,7 +20,7 @@
 
 ## Feature 01 - 6.4 File Size List 
 
-This feature lists all the files in the repo in a human readable format
+This feature lists all the files in the repo in a human readable format.
 To execute this feature, just type 1 at the beginning prompt when you
 first execute the file.
 some code was taken from
@@ -32,7 +32,7 @@ some code was taken from
 
 This feature outputs the number of files with the extension that
 the user inputs.
-Execution
+Execution:
 first input 2 at the start of the script. You will then be prompted
 to enter a extension.
 For example :
@@ -59,7 +59,7 @@ every-file-in-my-repo-that-has-a-specific-word-in-the-last-line]
 ## Feature 04 - Checkout Latest Merge 
 
 This feature finds the most recent commit with the word merge in the commit message
-it checkouts that commit
+and checkouts that commit
 The code uses grep -i to make sure the word merge is case insensitive 
 execution: just follow prompt at start of the script and enter
 4
@@ -93,7 +93,7 @@ Mini Interactive football game
 
 Enter 7 from the intial script input to run this feature
 The objective of the game is to gain 100 yards and score a touchdown to win the game. 
-The user will choose the type of plays to be he/she wants to run (short/medium/long)
+The user will choose the type of plays he/she wants to run (short/medium/long)
 you have 9 plays to try and gain 100 yards
 each type of play has a different success rate and number of yards that you can get
 on each play
@@ -112,7 +112,8 @@ It will show any duplicate files in your directory
 it will ask you to input 1 to delete one of the duplicate files
 inputting anything else will cancel it.
 one of the pitfalls of this feature is that it only works in the directory you run it in
-
+also you CANNOT choose which file gets deleted, I didn't think it was important 
+to be able to choose since the contents of the files are the same.
 
 ## Sources/References 
 
