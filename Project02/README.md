@@ -74,5 +74,5 @@ This function just changed the text of the button that the showhide function use
 ### References 
 
  I used and altered code from these  stackoverflow links:
- [Link 1](https://stackoverflow.com/questions/47655563/hide-and-show-text-by-click-on-div), [Link 2]([https://stackoverflow.com/questions/60698485/toggle-text-of-a-button-when-clicked](https://stackoverflow.com/questions/60698485/toggle-text-of-a-button-when-clicked), [Link 3](https://stackoverflow.com/questions/16025138/call-two-functions-from-same-onclick).
+ [Link 1](https://stackoverflow.com/questions/47655563/hide-and-show-text-by-click-on-div), [Link 2](https://stackoverflow.com/questions/60698485/toggle-text-of-a-button-when-clicked)(https://stackoverflow.com/questions/60698485/toggle-text-of-a-button-when-clicked), [Link 3](https://stackoverflow.com/questions/16025138/call-two-functions-from-same-onclick).
  Resume template from [startbootstrap](https://startbootstrap.com/themes/resume/).
