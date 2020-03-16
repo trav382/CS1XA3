@@ -1,6 +1,6 @@
 ## CS 1XA3 Project02 - mooret12
 
-This web page is a personal CV for myself. I used a resume template that can be found [here]([https://startbootstrap.com/themes/resume/](https://startbootstrap.com/themes/resume/)).  The languages used are JavaScript, HTML and CSS
+This web page is a personal CV for myself. I used a resume template that can be found [here](https://startbootstrap.com/themes/resume/).  The languages used are JavaScript, HTML and CSS
 
 
 ### **Custom JavaScript Code**  #1
@@ -74,5 +74,5 @@ This function just changed the text of the button that the showhide function use
 ### References 
 
  I used and altered code from these  stackoverflow links:
- [Link 1]([https://stackoverflow.com/questions/47655563/hide-and-show-text-by-click-on-div](https://stackoverflow.com/questions/47655563/hide-and-show-text-by-click-on-div)), [Link 2]([https://stackoverflow.com/questions/60698485/toggle-text-of-a-button-when-clicked](https://stackoverflow.com/questions/60698485/toggle-text-of-a-button-when-clicked)), [Link 3]([https://stackoverflow.com/questions/16025138/call-two-functions-from-same-onclick](https://stackoverflow.com/questions/16025138/call-two-functions-from-same-onclick)).
- Resume template from [startbootstrap]([https://startbootstrap.com/themes/resume/](https://startbootstrap.com/themes/resume/)).
+ [Link 1](https://stackoverflow.com/questions/47655563/hide-and-show-text-by-click-on-div), [Link 2]([https://stackoverflow.com/questions/60698485/toggle-text-of-a-button-when-clicked](https://stackoverflow.com/questions/60698485/toggle-text-of-a-button-when-clicked), [Link 3](https://stackoverflow.com/questions/16025138/call-two-functions-from-same-onclick).
+ Resume template from [startbootstrap](https://startbootstrap.com/themes/resume/).
