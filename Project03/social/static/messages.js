@@ -3,7 +3,14 @@
    ********************************************************************************************
    */
 function submitPost(event) {
-    alert('Post Button Pressed');
+    var post_text = $("#post-text").text();
+    let url = post_submit_url;
+    let json_data = {
+      'postContent' : post_text,
+    }
+    $.post(url,
+           json_data, moreResponse);
+    // alert('Post Button Pressed');
     // TODO Objective 8: send contents of post-text via AJAX Post to post_submit_view (reload page upon success)
 }
 
@@ -12,7 +19,15 @@ function submitPost(event) {
    ********************************************************************************************
    */
 function submitLike(event) {
-    alert('Like Button Pressed');
+    let postID = event.target.id;
+    let json_data = { 'postID' : postID };
+    // globally defined in messages.djhtml using i{% url 'social:like_view' %}
+    let url_path = like_post_url;
+
+    // AJAX post
+    $.post(url_path,
+           json_data,
+           moreResponse);
     // TODO Objective 10: send post-n id via AJAX POST to like_view (reload page upon success)
 }
 
