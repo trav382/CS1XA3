@@ -1,4 +1,4 @@
-# CS 1XA3 Project03 - mooret12
+# CS 1XA3 Project03 - Social Media Website
 
 
 
