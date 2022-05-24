@@ -178,14 +178,8 @@ return HttpResponse()
  - This code loops through all the Friend Requests. It checks if The User decided to add the other User.  
  - If the User did accept the decision will == "A" and they will become  friends. 
 - The request is deleted regardless if they choose accept or decline.
-##  Displaying Friends
-```
-{% for friend in friends%}
-	<span>{{friend.user}}</span>
-{%endfor%}
-```
- - This Objective required a loop to display the User's friends in  **messages.djhtml**.
- - friends was already defined in messages_view and contained a list of the User's friends.
+
+
 
 ## Submitting Posts
 
