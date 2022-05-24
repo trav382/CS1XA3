@@ -16,7 +16,7 @@ Please refer to [here](https://docs.anaconda.com/anaconda/install/)  to **Instal
 	python manage.py runserver localhost:8000
 ```
 **Make** **sure** you run this in the directory with the manage.py file.
-Going to **locahost:8000/e/mooret12/** will take you to the signup/login page.
+Going to **localhost:8000/e/mooret12/** will take you to the signup/login page.
 
 ###  Running on the Server
 - Make sure the **conda environment** is activated
