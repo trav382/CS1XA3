@@ -49,9 +49,9 @@ List of other Usernames:
 - Travis 
 
 ## Objective 01 - Sign up Page
-**What it looks like*:*
+**What it looks like:**
 
-![sign up](/images/sign_up.PNG)
+![sign up](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/sign_up.PNG)
 
 **Description:**
 - This feature is displayed in signup.djhtml which is rendered by signup_view
@@ -68,6 +68,10 @@ def  signup_view(request):
 ```
 It uses a built-in form from Django that creates a user, from the given username and password.
 ## Objective 02 - User Info
+**What it looks like:**
+
+![int](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/interests.PNG)
+
 **Description:** 
 - This feature displays information of the user currently logged in, such as their Employment, Location, Birthday, and Interests.
 - For example,
@@ -77,6 +81,11 @@ It uses a built-in form from Django that creates a user, from the given username
 This code in social_base.djhtml will display the location of the User. This information is displayed in the left column of e/mooret12/social/*
 *= messages, people, and account
 ## Objective 03 - Password Change/Update Info
+
+**What it looks like:**
+
+![pass](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/change_pass.PNG)
+
 
 **Description:** 
 - For the password change another built-in form was used (PasswordChangeForm)
@@ -92,6 +101,11 @@ class UpdateInfoForm(forms.ModelForm):
 ```
 This form allows Users to change their UserInfo Fields, and the PasswordChangeForm allows Users to change their password
 ## Objective 04 - Displaying People List
+
+**What it looks like:**
+
+![people](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/people.PNG)
+
 **Description**:
 - This feature displays all users who are not friends of the current user and friend requests
 ```python
@@ -116,6 +130,12 @@ This code looped through all users, and checked to see if they were friends with
 ```python
 def friend_request_view(request):
 ```
+
+**What it looks like:**
+
+![req](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/req.PNG)
+
+
 **Description:** This function will handle a POST request from clicking the Friend Request button in people.djhtml.
 
 **Exceptions:**
@@ -164,6 +184,13 @@ return HttpResponse()
  - friends was already defined in messages_view and contained a list of the User's friends.
 
 ## Objective 8 - Submitting Posts
+
+
+**What it looks like:**
+
+![post](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/create_post.PNG)
+
+
 ```javascript
 function submitPost(event) {
 
