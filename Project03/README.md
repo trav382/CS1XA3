@@ -48,7 +48,10 @@ List of other Usernames:
 - Justin
 - Travis 
 
-## Objective 01 - Sign up Page
+
+### Features
+
+## Sign up Page
 **What it looks like:**
 
 ![sign up](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/sign_up.PNG)
@@ -67,7 +70,7 @@ def  signup_view(request):
 	return render(request,'signup.djhtml',context)
 ```
 It uses a built-in form from Django that creates a user, from the given username and password.
-## Objective 02 - User Info
+## User Info
 **What it looks like:**
 
 ![int](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/interests.PNG)
@@ -80,7 +83,7 @@ It uses a built-in form from Django that creates a user, from the given username
 ```
 This code in social_base.djhtml will display the location of the User. This information is displayed in the left column of e/mooret12/social/*
 *= messages, people, and account
-## Objective 03 - Password Change/Update Info
+## Password Change/Update Info
 
 **What it looks like:**
 
@@ -100,7 +103,7 @@ class UpdateInfoForm(forms.ModelForm):
 	fields = ["employment", "location", "birthday"]
 ```
 This form allows Users to change their UserInfo Fields, and the PasswordChangeForm allows Users to change their password
-## Objective 04 - Displaying People List
+## Displaying People List
 
 **What it looks like:**
 
@@ -125,7 +128,7 @@ This code looped through all users, and checked to see if they were friends with
 	<h4>{{user.user}}</h4><br>
 {%endfor%}
 ```
-## Objective 05 - Sending Friend Requests
+## Sending Friend Requests
 
 ```python
 def friend_request_view(request):
@@ -141,7 +144,7 @@ def friend_request_view(request):
 **Exceptions:**
 Will return a HttpResponseNotFound error if the function is called without frID in POST
 
-## Objective 06 - Accepting / Declining Friend Requests
+## Accepting / Declining Friend Requests
 ```python
 def accept_decline_view(request):
 ```
@@ -174,7 +177,7 @@ return HttpResponse()
  - This code loops through all the Friend Requests. It checks if The User decided to add the other User.  
  - If the User did accept the decision will == "A" and they will become  friends. 
 - The request is deleted regardless if they choose accept or decline.
-## Objective 07 - Displaying Friends
+##  Displaying Friends
 ```
 {% for friend in friends%}
 	<span>{{friend.user}}</span>
@@ -183,7 +186,7 @@ return HttpResponse()
  - This Objective required a loop to display the User's friends in  **messages.djhtml**.
  - friends was already defined in messages_view and contained a list of the User's friends.
 
-## Objective 8 - Submitting Posts
+## Submitting Posts
 
 
 **What it looks like:**
@@ -235,7 +238,7 @@ return HttpResponseNotFound()
 **Exceptions**:
 - Will call HttpResponseNotFound error if post_submit_view is called without postContent in POST
 
-## Objective 9/10 
+## Displaying All Posts 
 ```python
 def  messages_view(request):
 
