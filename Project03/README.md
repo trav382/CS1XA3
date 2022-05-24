@@ -49,7 +49,7 @@ List of other Usernames:
 - Travis 
 
 
-### Features
+## Features
 
 ## Sign up Page
 **What it looks like:**
