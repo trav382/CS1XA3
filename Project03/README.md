@@ -134,10 +134,6 @@ This code looped through all users, and checked to see if they were friends with
 def friend_request_view(request):
 ```
 
-**What it looks like:**
-
-![req](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/req.PNG)
-
 
 **Description:** This function will handle a POST request from clicking the Friend Request button in people.djhtml.
 
@@ -145,6 +141,11 @@ def friend_request_view(request):
 Will return a HttpResponseNotFound error if the function is called without frID in POST
 
 ## Accepting / Declining Friend Requests
+
+**What it looks like:**
+
+![req](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/req.PNG)
+
 ```python
 def accept_decline_view(request):
 ```
