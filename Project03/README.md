@@ -184,11 +184,6 @@ return HttpResponse()
 ## Submitting Posts
 
 
-**What it looks like:**
-
-![post](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/create_post.PNG)
-
-
 ```javascript
 function submitPost(event) {
 
@@ -234,6 +229,12 @@ return HttpResponseNotFound()
 - Will call HttpResponseNotFound error if post_submit_view is called without postContent in POST
 
 ## Displaying All Posts 
+
+**What a post looks like:**
+
+![post](https://raw.githubusercontent.com/trav382/CS1XA3/master/Project03/images/create_post.PNG)
+
+
 ```python
 def  messages_view(request):
 
