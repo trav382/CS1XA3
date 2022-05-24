@@ -49,6 +49,10 @@ List of other Usernames:
 - Travis 
 
 ## Objective 01 - Sign up Page
+**What it looks like*:*
+
+![sign up](/images/sign_up.PNG)
+
 **Description:**
 - This feature is displayed in signup.djhtml which is rendered by signup_view
 ```python
