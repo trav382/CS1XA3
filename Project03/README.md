@@ -4,7 +4,11 @@
 
 ## Usage
 To run Project 03 you need to have **Anaconda** installed.
-Please refer to [here](https://docs.anaconda.com/anaconda/install/)  to **Install Anaconda** 
+Please refer to [here](https://docs.anaconda.com/anaconda/install/)  to **Install Anaconda**
+You will also need django installed which can be done with the following command in a CLI:
+```
+python -m pip install django
+````
 
 ### Running Locally 
 - Make sure the **conda environment** is activated
